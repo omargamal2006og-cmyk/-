@@ -1,17 +1,20 @@
 {
   "expo": {
     "name": "Khadamat Masr",
-    "slug": "khadamat-masr-app",
+    "slug": "khdamat-msr",
     "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
     "ios": {
-      "bundleIdentifier": "com.omargamal.khadamatmasr"
+      "bundleIdentifier": "com.omar.khadamatmasr"
     },
     "android": {
-      "package": "com.omargamal.khadamatmasr"
+      "package": "com.omar.khadamatmasr"
     },
     "extra": {
       "eas": {
-        "projectId": "PUT_PROJECT_ID_HERE"
+        "projectId": "93be7756-a3c9-4d03-b034-943f5e232745"
       }
     }
   }
