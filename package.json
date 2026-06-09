@@ -1,8 +1,16 @@
 {
-  "name": "khadamat-masr",
+  "name": "khadamat-masr-app",
   "version": "1.0.0",
-  "main": "App.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios"
+  },
+  "dependencies": {
+    "expo": "latest",
+    "expo-status-bar": "latest",
+    "react": "latest",
+    "react-native": "latest"
   }
 }
