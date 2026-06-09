@@ -1,10 +1,11 @@
 {
   "expo": {
+    "owner": "omar798s-team",
     "name": "Khadamat Masr",
-    "slug": "khdamat-msr",
+    "slug": "khadamat-masr-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "bundleIdentifier": "com.omar.khadamatmasr"
