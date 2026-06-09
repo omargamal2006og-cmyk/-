@@ -1,7 +1,13 @@
 {
   "expo": {
     "name": "Khadamat Masr",
-    "slug": "khadamat-masr",
-    "version": "1.0.0"
+    "slug": "khadamat-masr-app",
+    "version": "1.0.0",
+    "ios": {
+      "bundleIdentifier": "com.omargamal.khadamatmasr"
+    },
+    "android": {
+      "package": "com.omargamal.khadamatmasr"
+    }
   }
 }
