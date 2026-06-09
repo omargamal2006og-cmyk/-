@@ -8,6 +8,11 @@
     },
     "android": {
       "package": "com.omargamal.khadamatmasr"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "PUT_PROJECT_ID_HERE"
+      }
     }
   }
 }
