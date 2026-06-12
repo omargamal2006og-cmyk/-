@@ -2,16 +2,39 @@
   "expo": {
     "owner": "omar798s-team",
     "name": "Khadamat Masr",
-    "slug": "khdamat-msr",
+    "slug": "khadamat-msr",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./icon.png",
     "userInterfaceStyle": "light",
+
+    "splash": {
+      "image": "./icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+
     "ios": {
+      "supportsTablet": true,
       "bundleIdentifier": "com.omar.khadamatmasr"
     },
+
     "android": {
-      "package": "com.omar.khadamatmasr"
+      "package": "com.omar.khadamatmasr",
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#ffffff"
+      }
     },
+
+    "web": {
+      "favicon": "./icon.png"
+    },
+
     "extra": {
       "eas": {
         "projectId": "93be7756-a3c9-4d03-b034-943f5e232745"
