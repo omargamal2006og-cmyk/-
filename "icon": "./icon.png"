@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "owner": "omar798s-team",
+    "name": "Khadamat Masr",
+    "slug": "khdamat-msr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "bundleIdentifier": "com.omar.khadamatmasr"
+    },
+    "android": {
+      "package": "com.omar.khadamatmasr",
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "93be7756-a3c9-4d03-b034-943f5e232745"
+      }
+    }
+  }
+}
